@@ -1,22 +1,17 @@
-
-
-
-.container{
-  max-width: 50em;
-  margin: 15vh auto;
-  margin-bottom: 0;
-}
-
-
 html {font-size: 1em;}
 
 body {
   color: #F2E9E4;
   background-color: #22223B;
-  /* font-family: 'Libre Baskerville', serif; */
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   line-height: 1.45; 
+}
+
+.container{
+  max-width: 50em;
+  margin: 15vh auto;
+  margin-bottom: 0;
 }
 
 p {margin-bottom: 1.3em;}
@@ -38,14 +33,9 @@ h3 {font-size: 1.999em;}
 
 h4 {font-size: 1.414em;}
 
-small, .font_small {font-size: 0.707em;}
-
 
 a{
-  /* color: #F2E9E4; */
-  
   color: #FFA5AB;
-  /* color: #F9DBBD; */
  }
 
  .pointable{
