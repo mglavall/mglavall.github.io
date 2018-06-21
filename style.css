@@ -2,8 +2,9 @@
 
 
 .container{
-  max-width: 45em;
+  max-width: 50em;
   margin: 15vh auto;
+  margin-bottom: 0;
 }
 
 
@@ -39,4 +40,18 @@ h4 {font-size: 1.414em;}
 
 small, .font_small {font-size: 0.707em;}
 
-a{color: #F2E9E4; }
+
+a{
+  /* color: #F2E9E4; */
+  
+  color: #FFA5AB;
+  /* color: #F9DBBD; */
+ }
+
+ .pointable{
+   cursor: pointer;
+ }
+
+ footer{
+  margin-top:10em;
+ }
