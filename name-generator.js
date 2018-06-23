@@ -18,6 +18,7 @@ var names = [
   "Marsupuesto que sí"
 ]
 var name = "Marçal";
+
 function getRandomName() {
   var aux = false;
 
@@ -27,6 +28,6 @@ function getRandomName() {
       aux = true;
     }
   }
-  $("#name").text(newName);
+  document.getElementById("name").innerHTML = newName;
   name = newName;
 }
