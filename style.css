@@ -57,10 +57,3 @@ a {
 footer {
   margin-top: 10em;
 }
-
-#name:hover::after {
-  content: " - Click me to see my possible nicknames";
-  font-size: 10px;
-  color: #f2e9e4;
-  vertical-align: middle;
-}
