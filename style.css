@@ -1,22 +1,29 @@
-html {font-size: 1em;}
-
-body {
-  color: #F2E9E4;
-  background-color: #22223B;
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
-  line-height: 1.45; 
+html {
+  font-size: 1em;
 }
 
-.container{
+body {
+  color: #f2e9e4;
+  background-color: #22223b;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.container {
   max-width: 50em;
   margin: 15vh auto;
   margin-bottom: 0;
 }
 
-p {margin-bottom: 1.3em;}
+p {
+  margin-bottom: 1.3em;
+}
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
@@ -27,21 +34,26 @@ h1 {
   font-size: 3.998em;
 }
 
-h2 {font-size: 2.827em;}
+h2 {
+  font-size: 2.827em;
+}
 
-h3 {font-size: 1.999em;}
+h3 {
+  font-size: 1.999em;
+}
 
-h4 {font-size: 1.414em;}
+h4 {
+  font-size: 1.414em;
+}
 
+a {
+  color: #ffa5ab;
+}
 
-a{
-  color: #FFA5AB;
- }
+.pointable {
+  cursor: pointer;
+}
 
- .pointable{
-   cursor: pointer;
- }
-
- footer{
-  margin-top:10em;
- }
+footer {
+  margin-top: 10em;
+}
