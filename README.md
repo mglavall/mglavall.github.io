@@ -1,2 +1,1 @@
-# mglavall.github.io
-My resume
+![](https://github.com/mglavall/mglavall.github.io/blob/master/preview.PNG)
