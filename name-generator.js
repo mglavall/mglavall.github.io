@@ -1,4 +1,4 @@
-var names = [
+const names = [
   "Marçal",
   "Marsa",
   "Marsupesa",
@@ -15,15 +15,17 @@ var names = [
   "Marcelino",
   "The good old Marsi",
   "Marsupiskas",
-  "Marsupuesto que sí"
-]
-var name = "Marçal";
+  "Marsupuesto que sí",
+  "Marshmellow",
+  "U.S. Marshal"
+];
+let name = "Marçal";
 
 function getRandomName() {
-  var aux = false;
+  let aux = false;
 
   while (!aux) {
-    var newName = names[Math.floor(Math.random() * names.length)];
+    let newName = names[Math.floor(Math.random() * names.length)];
     if (newName != name) {
       aux = true;
     }
