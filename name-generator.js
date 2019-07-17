@@ -25,7 +25,7 @@ function getRandomName() {
   var aux = false;
 
   while (!aux) {
-    const newName = names[Math.floor(Math.random() * names.length)];
+    var newName = names[Math.floor(Math.random() * names.length)];
     if (newName != name) {
       aux = true;
     }
