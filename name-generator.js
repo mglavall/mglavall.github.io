@@ -19,13 +19,13 @@ const names = [
   "Marshmellow",
   "U.S. Marshal"
 ];
-let name = "Marçal";
+var name = "Marçal";
 
 function getRandomName() {
-  let aux = false;
+  var aux = false;
 
   while (!aux) {
-    let newName = names[Math.floor(Math.random() * names.length)];
+    const newName = names[Math.floor(Math.random() * names.length)];
     if (newName != name) {
       aux = true;
     }
